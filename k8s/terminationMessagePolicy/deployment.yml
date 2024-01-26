@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frequent-crash
+spec:
+  selector:
+    matchLabels:
+      app: frequent-crash
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: frequent-crash
+    spec:
+      containers:
+        - name: frequent-crash-container
+          image: decisivedevops/k8s-restless-restarter:v1.0.0
