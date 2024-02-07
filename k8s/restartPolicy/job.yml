@@ -8,8 +8,7 @@ spec:
   template:
     spec:
       containers:
-      - name: example
-        image: busybox
-        command: ["/bin/sh", "-c", "echo Hello Kubernetes! && exit 1"]
-      restartPolicy: Never
-
+      - name: busybox
+        image: busybox:1.36.1
+        command: ["/bin/sh", "-c", "echo Hello Kubernetes! && exit 0"]
+      restartPolicy: OnFailure
