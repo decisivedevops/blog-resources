@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: busybox-job
+  labels:
+   app: busybox-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: example
+        image: busybox
+        command: ["/bin/sh", "-c", "echo Hello Kubernetes! && exit 1"]
+      restartPolicy: Never
+
