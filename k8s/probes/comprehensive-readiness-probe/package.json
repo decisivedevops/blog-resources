@@ -1,0 +1,16 @@
+{
+    "name": "comprehensive-readiness-probe",
+    "version": "1.0.0",
+    "description": "A Node.js application integrating Express, Mongoose, and Redis.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^6.0.12",
+        "redis": "^4.0.1"
+    },
+    "author": "",
+    "license": "ISC"
+}

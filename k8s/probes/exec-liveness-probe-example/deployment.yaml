@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: exec-liveness-probe-example
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: exec-liveness-probe-example
+  template:
+    metadata:
+      labels:
+        app: exec-liveness-probe-example
+    spec:
+      containers:
+      - name: exec-liveness-probe-example
+        image: exec-liveness-probe-example
+        imagePullPolicy: Never
+        livenessProbe:
+          exec:
+            command:
+            - /usr/local/bin/bash
+            - -c
+            - if [ -f /tmp/healthz ]; then exit 0; else exit 1; fi
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          failureThreshold: 1

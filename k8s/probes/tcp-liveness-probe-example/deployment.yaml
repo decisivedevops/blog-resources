@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tcp-liveness-probe-example
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tcp-liveness-probe-example
+  template:
+    metadata:
+      labels:
+        app: tcp-liveness-probe-example
+    spec:
+      containers:
+      - name: tcp-liveness-probe-example
+        image: tcp-liveness-probe-example
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080
+        livenessProbe:
+          tcpSocket:
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 5

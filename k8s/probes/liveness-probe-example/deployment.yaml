@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: liveness-probe-example
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: liveness-probe-example
+  template:
+    metadata:
+      labels:
+        app: liveness-probe-example
+    spec:
+      containers:
+      - name: liveness-probe-example
+        imagePullPolicy: Never
+        image: liveness-probe-example
+        ports:
+        - containerPort: 3000
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 5

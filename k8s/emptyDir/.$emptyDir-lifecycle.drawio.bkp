@@ -1,0 +1,113 @@
+<mxfile host="Electron" modified="2024-02-15T06:50:42.814Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="RpBQBOSLoJDcbdGXEdvV" version="23.0.2" type="device">
+  <diagram id="jRB-BoQu9cSR670oCyiK" name="1">
+    <mxGraphModel dx="2008" dy="1349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r5kez2t-eV-rQQRGPLl7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="690" height="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-1" value="Pod Operations" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="366" width="360" height="825" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-2" value="Pod Running" style="rhombus;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="279" y="391" width="136" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-3" value="Data Usage: All Containers Read/Write" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="212" y="680" width="268" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-4" value="emptyDir Unaffected" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="346" y="596" width="166" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-5" value="Pod Status Check" style="rhombus;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="261" y="783" width="171" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-6" value="End of emptyDir Lifecycle" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#fad9d5;strokeColor=#ae4132;sketch=1;curveFitting=1;jiggle=2;fillStyle=solid;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="246" y="1120" width="200" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-11" value="Node Operations" style="whiteSpace=wrap;strokeWidth=1;verticalAlign=top;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="129" width="640" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-12" value="emptyDir Volume Created on Node" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="215" y="257" width="263" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-30" style="edgeStyle=none;shape=connector;curved=1;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#A8201A;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=none;endArrow=block;" edge="1" parent="1" source="ZvucAmqedV1Chs5uvIlg-13" target="ZvucAmqedV1Chs5uvIlg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-31" value="Initially Empty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="ZvucAmqedV1Chs5uvIlg-30">
+          <mxGeometry x="0.2952" y="-4" relative="1" as="geometry">
+            <mxPoint x="-6" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-13" value="Creation: Pod Assigned to Node" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="61" y="170" width="239" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-14" value="Node Stores emptyDir on Disk or in Memory" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="260" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5003365384615385;exitY=1;entryX=0.7086168797759237;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="ZvucAmqedV1Chs5uvIlg-14" target="ZvucAmqedV1Chs5uvIlg-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="513" y="223" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5001930846007605;exitY=1;entryX=0.49669692095588236;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="ZvucAmqedV1Chs5uvIlg-12" target="ZvucAmqedV1Chs5uvIlg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-20" value="Data Written" style="curved=1;startArrow=none;endArrow=block;exitX=0.09785659735694452;exitY=0.9993106617647058;entryX=0.37854047285891973;entryY=-0.0027573529411764708;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="ZvucAmqedV1Chs5uvIlg-2" target="ZvucAmqedV1Chs5uvIlg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="561" />
+              <mxPoint x="265" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-21" value="Container Crashes" style="curved=1;startArrow=none;endArrow=block;exitX=0.8955372445548202;exitY=0.9993106617647058;entryX=0.4959760918674699;entryY=-0.0027573529411764708;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="ZvucAmqedV1Chs5uvIlg-2" target="ZvucAmqedV1Chs5uvIlg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4959760918674699;exitY=0.9972426470588235;entryX=0.6255698349769012;entryY=-0.0027573529411764708;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="ZvucAmqedV1Chs5uvIlg-4" target="ZvucAmqedV1Chs5uvIlg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.37313022455984635;exitY=0.9972426470588235;entryX=0.06390103104009388;entryY=-0.0005482456140350877;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="ZvucAmqedV1Chs5uvIlg-3" target="ZvucAmqedV1Chs5uvIlg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="242" y="748" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-24" value="Pod Running" style="curved=1;startArrow=none;endArrow=block;exitX=0.954509633804861;exitY=-0.0005482456140350877;entryX=0.6362436999619621;entryY=0.9972426470588235;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="ZvucAmqedV1Chs5uvIlg-5" target="ZvucAmqedV1Chs5uvIlg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="748" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-25" value="Pod Removed" style="curved=1;startArrow=none;endArrow=block;exitX=0.500296966374269;exitY=1.0015533625730995;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#A8201A;sketch=1;curveFitting=1;jiggle=2;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvucAmqedV1Chs5uvIlg-5" target="ZvucAmqedV1Chs5uvIlg-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="347" y="989" />
+            </Array>
+            <mxPoint x="744" y="1005.7397576644189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-33" style="edgeStyle=none;shape=connector;curved=1;rounded=0;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=none;endArrow=block;" edge="1" parent="1" source="ZvucAmqedV1Chs5uvIlg-32" target="ZvucAmqedV1Chs5uvIlg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvucAmqedV1Chs5uvIlg-32" value="Deletion: Data in emptyDir Deleted" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="213" y="1030" width="268" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,125 @@
+<mxfile host="Electron" modified="2024-02-07T13:11:05.540Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="c_e4FI3-aFcuuveLYR_j" version="23.0.2" type="device" pages="2">
+  <diagram name="Page-1" id="8Nqpqu_nWPEHwo_r2B32">
+    <mxGraphModel dx="1407" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5ffZk5otACv7mTes0I9N-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="320" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-11" value="Pod Exits" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="407" y="530" width="79" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-12" value="Restart Policy" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="386" y="640" width="121" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-13" value="Restart Pod" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="312" y="1016" width="97" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-30" value="0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;curved=1;flowAnimation=0;" edge="1" parent="1">
+          <mxGeometry x="0.0456" y="-12" relative="1" as="geometry">
+            <mxPoint x="482" y="917.7499999999998" as="sourcePoint" />
+            <mxPoint x="521.9999999999998" y="1015.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="522" y="918" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-14" value="Exit Code" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="830" width="117" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-15" value="Do Not Restart" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="488" y="1016" width="119" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4987143987341772;exitY=1;entryX=0.4993090986394558;entryY=0;rounded=0;flowAnimation=0;" edge="1" parent="1" source="bzJK4bM6638q1HVhGCQ7-11" target="bzJK4bM6638q1HVhGCQ7-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-17" value="Always" style="curved=1;startArrow=none;endArrow=block;exitX=-0.00021258503401360543;exitY=0.9565041391366162;entryX=0.29833295278250427;entryY=-0.0009191176470588235;rounded=0;flowAnimation=0;" edge="1" parent="1" source="bzJK4bM6638q1HVhGCQ7-12" target="bzJK4bM6638q1HVhGCQ7-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="795" />
+              <mxPoint x="330" y="981" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-18" value="OnFailure" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.4991319444444444;entryY=-0.001201923076923077;rounded=0;exitDx=0;exitDy=0;flowAnimation=0;" edge="1" parent="1" source="bzJK4bM6638q1HVhGCQ7-12" target="bzJK4bM6638q1HVhGCQ7-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-19" value="Never" style="curved=1;startArrow=none;endArrow=block;exitX=0.9988307823129252;exitY=0.9707331592589238;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=0;" edge="1" parent="1" source="bzJK4bM6638q1HVhGCQ7-12" target="bzJK4bM6638q1HVhGCQ7-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="563" y="795" />
+              <mxPoint x="570" y="970" />
+            </Array>
+            <mxPoint x="590" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzJK4bM6638q1HVhGCQ7-21" value="Non-0" style="curved=1;startArrow=none;endArrow=block;exitX=0.215;exitY=0.769;entryX=0.6998145987638875;entryY=-0.0009191176470588235;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;flowAnimation=0;" edge="1" parent="1" source="bzJK4bM6638q1HVhGCQ7-14" target="bzJK4bM6638q1HVhGCQ7-13">
+          <mxGeometry x="-0.0902" y="-6" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="930" />
+              <mxPoint x="380" y="970" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E8FQJYUXBhrZ-1ws6P9k" name="Page-2">
+    <mxGraphModel dx="1196" dy="-361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LxfJ7KDY_1swywg1TMUe-2" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1230" width="660" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8MMRewOH2Mu_r4Zk-m---1" value="Restart Policies" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1282" width="125" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8MMRewOH2Mu_r4Zk-m---2" value="Deployments, ReplicaSets, StatefulSets, DaemonSets" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="460.5" y="1240" width="189.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8MMRewOH2Mu_r4Zk-m---3" value="Standalone Pods, Jobs" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="460.5" y="1324" width="189.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8MMRewOH2Mu_r4Zk-m---4" value="Pod is Always Restarted" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1240" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8MMRewOH2Mu_r4Zk-m---5" value="Pod Restart Depends on Policy and Exit Status" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1324" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8MMRewOH2Mu_r4Zk-m---6" value="Always" style="curved=1;startArrow=none;endArrow=block;exitX=0.9789092261904762;exitY=0;entryX=0.0011529898218829516;entryY=0.5;rounded=0;labelBackgroundColor=default;strokeColor=#A8201A;fontColor=default;shadow=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8MMRewOH2Mu_r4Zk-m---1" target="8MMRewOH2Mu_r4Zk-m---2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="441" y="1257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8MMRewOH2Mu_r4Zk-m---7" value="OnFailure, Never" style="curved=1;startArrow=none;endArrow=block;exitX=0.9789092261904762;exitY=1;entryX=0.0021551724137931034;entryY=0.5;rounded=0;labelBackgroundColor=default;strokeColor=#A8201A;fontColor=default;shadow=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8MMRewOH2Mu_r4Zk-m---1" target="8MMRewOH2Mu_r4Zk-m---3">
+          <mxGeometry x="0.0036" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="441" y="1341" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8MMRewOH2Mu_r4Zk-m---8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0021469465648856;exitY=0.5;entryX=-0.0016649590163934425;entryY=0.5;rounded=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8MMRewOH2Mu_r4Zk-m---2" target="8MMRewOH2Mu_r4Zk-m---4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8MMRewOH2Mu_r4Zk-m---9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9995510057471264;exitY=0.5;entryX=-0.00045553935860058307;entryY=0.5;rounded=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="8MMRewOH2Mu_r4Zk-m---3" target="8MMRewOH2Mu_r4Zk-m---5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
