@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: startup-probe-example
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: startup-probe-example
+  template:
+    metadata:
+      labels:
+        app: startup-probe-example
+    spec:
+      containers:
+      - name: startup-probe-example
+        image: startup-probe-example
+        imagePullPolicy: Never
+        ports:
+        - name: app-port
+          containerPort: 3000
+        env:
+        - name: STARTUP_DELAY
+          value: "30"
+        startupProbe:
+          httpGet:
+            path: /startup
+            port: app-port
+          failureThreshold: 1
+          periodSeconds: 5
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: app-port
+          initialDelaySeconds: 10
+          periodSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: app-port
+          initialDelaySeconds: 10
+          periodSeconds: 5
