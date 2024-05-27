@@ -6,7 +6,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, World!"
+    return "Hello, World!", 200
+
+@app.route('/healthz')
+def healthz():
+    return "Healtly.", 200
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
